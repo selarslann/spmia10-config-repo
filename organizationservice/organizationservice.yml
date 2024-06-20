@@ -9,3 +9,6 @@ spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 signing.key: "345345fsdfsf5345"
+spring.cloud.config.allowOverride: true
+spring.cloud.config.overrideNone: true
+
